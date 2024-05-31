@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey there! Welcome to our store.",
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Hello, thanks for visiting. How may I assist you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later, thanks for visiting.",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["You're welcome!", "Glad I could help!", "My pleasure."]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What kinds of items do you have?",
+        "What do you sell?",
+        "Can you tell me about your products?"
+      ],
+      "responses": [
+        "We offer a variety of products including home decor, handmade pottery, and delicious homemade food.",
+        "Our store features a selection of home decor, pottery, and homemade food items."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay with Paypal?",
+        "Do you accept cash on delivery?"
+      ],
+      "responses": [
+        "We accept Paypal, Mastercard, and cash on delivery.",
+        "We support Paypal, Mastercard, and cash on delivery for payments."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "When will I receive my order?",
+        "What is the shipping time?"
+      ],
+      "responses": [
+        "Delivery usually takes 1-2 days.",
+        "Shipping typically takes 1-2 days."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know any jokes?"
+      ],
+      "responses": [
+        "Sure, here's one: Why don't scientists trust atoms? Because they make up everything!",
+        "Here's a joke for you: Why did the scarecrow win an award? Because he was outstanding in his field!"
+      ]
+    },
+    {
+      "tag": "seller",
+      "patterns": [
+        "How can I sell my products on your platform?",
+        "Can I become a seller?",
+        "Tell me about selling on your platform."
+      ],
+      "responses": [
+        "To become a seller, simply click on the 'Become a Seller' button and follow the easy steps to register yourself. Once registered, you'll get access to a dynamic dashboard where you can start listing your products."
+      ]
+    }
+  ]
+}
